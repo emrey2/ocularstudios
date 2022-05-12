@@ -2,10 +2,9 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 
-//import vr1 from "../assets/vr.jpg";
 import vr2 from "../assets/vr_2.jpg";
 
-import vrVid from "../assets/vr.mp4";
+import vrVid from "../assets/vr.gif";
 
 import "./Vr.css";
 
@@ -30,14 +29,7 @@ const Vr = () => {
       <div className="right">
         <div className="img_container">
           <div className="img_stack top">
-            <video
-              className="img"
-              src={vrVid}
-              autoPlay
-              loop
-              muted
-              type="video/mp4"
-            />
+            <img alt="" className="img" src={vrVid} />
           </div>
           <div className="img_stack bottom">
             <img src={vr2} className="img" alt="" />

@@ -34,6 +34,8 @@
     border: 1px solid #333;
 }
 
+
+
 .right .top {
     grid-column: 1 / span 8;
     grid-row: 1;

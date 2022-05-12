@@ -1,6 +1,6 @@
 import React from "react";
 
-import heroVideo from "../assets/1080p.mp4";
+import heroVideo from "../assets/home2.gif";
 import { Link } from "react-router-dom";
 
 import "./Video.css";
@@ -8,9 +8,7 @@ import "./Video.css";
 const Video = () => {
   return (
     <div className="hero">
-      <video autoPlay loop muted id="video">
-        <source src={heroVideo} type="video/mp4" />
-      </video>
+      <img alt="" id="video" src={heroVideo} />
       <div className="content">
         <h1>
           OCUL<span>AR</span>VERSE

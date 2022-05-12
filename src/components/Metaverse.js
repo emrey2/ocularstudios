@@ -3,9 +3,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import metaverse from "../assets/metaverse.jpg";
-//import metaverse_2 from "../assets/metaverse_2.jpg";
 
-import metaverseVid from "../assets/metaverse_video.mp4";
+import metaverseVid from "../assets/meta2.gif";
 
 import "./Metaverse.css";
 
@@ -29,14 +28,7 @@ const Vr = () => {
       <div className="right">
         <div className="img_container">
           <div className="img_stack top">
-            <video
-              className="img"
-              src={metaverseVid}
-              autoPlay
-              loop
-              muted
-              type="video/mp4"
-            />
+            <img alt="" className="img" src={metaverseVid} />
           </div>
           <div className="img_stack bottom">
             <img src={metaverse} className="img" alt="" />

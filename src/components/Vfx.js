@@ -2,10 +2,9 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 
-//import vfx1 from "../assets/vfx.jpg";
-import vfx2 from "../assets/vfx_2.jpg";
+import vfx2 from "../assets/vfx3.jpg";
 
-import vfxVid from "../assets/vfx_video.mp4";
+import vfxVid from "../assets/vfx.gif";
 
 import "./Vfx.css";
 
@@ -30,14 +29,7 @@ const Vr = () => {
       <div className="right">
         <div className="img_container">
           <div className="img_stack top">
-            <video
-              className="img"
-              src={vfxVid}
-              autoPlay
-              loop
-              muted
-              type="video/mp4"
-            />
+            <img alt="" className="img" src={vfxVid} />
           </div>
           <div className="img_stack bottom">
             <img src={vfx2} className="img" alt="" />
