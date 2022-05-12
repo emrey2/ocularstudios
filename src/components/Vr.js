@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 //import vr1 from "../assets/vr.jpg";
 import vr2 from "../assets/vr_2.jpg";
 
-import vrVid from "../assets/vr_video.mp4";
+import vrVid from "../assets/vr.mp4";
 
 import "./Vr.css";
 
