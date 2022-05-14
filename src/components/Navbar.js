@@ -40,7 +40,7 @@ const Navbar = () => {
           <Link to="/metaverse">Metaverse</Link>
         </li>
         <li>
-          <Link to="/web3">WEB3.0</Link>
+          <Link to="/webThree">WEB3.0</Link>
         </li>
         <li>
           <Link to="/contact">Contact</Link>

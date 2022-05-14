@@ -5,7 +5,7 @@ import VirtualReality from "./routes/VirtualReality";
 import Contact from "./routes/Contact";
 import VfxPage from "./routes/VfxPage";
 import MetaversePage from "./routes/MetaversePage";
-import Web3 from "./routes/Web3";
+import WebThree from "./routes/WebThree";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Route path="/vfx" element={<VfxPage />} />
         <Route path="/metaverse" element={<MetaversePage />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/web3" element={<Web3 />} />
+        <Route path="/webThree" element={<WebThree />} />
       </Routes>
     </div>
   );
