@@ -34,7 +34,7 @@
         grid-template-columns: 1fr;
     }
 
-    .vr .img{
+    .vr .right{
         max-width: 80%;
     }
 }
