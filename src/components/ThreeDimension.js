@@ -8,7 +8,7 @@ import vrVid from "../assets/vr.gif";
 
 import "./ThreeDimensions.css";
 
-import { Canvas } from "react-three-fiber";
+import { Canvas } from "@react-three/fiber";
 
 import { OrbitControls, Stars } from "@react-three/drei";
 
