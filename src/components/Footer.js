@@ -30,7 +30,7 @@ const Footer = () => {
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-              123-45-67
+              +90 532 290 96 41
             </h4>
           </div>
           <div className="email">

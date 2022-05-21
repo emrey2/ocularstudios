@@ -1,22 +1,20 @@
-import React from "react";
+import React, { useRef } from "react";
 
 import { Link } from "react-router-dom";
 
-import vr2 from "../assets/vr_2.jpg";
-
-import vrVid from "../assets/vr.gif";
-
 import "./ThreeDimensions.css";
 
-import { Canvas } from "@react-three/fiber";
+import { Canvas, useFrame } from "@react-three/fiber";
 
 import { OrbitControls, Stars } from "@react-three/drei";
 
 function Box() {
+  const mesh = useRef();
+  useFrame(() => (mesh.current.rotation.x = mesh.current.rotation.y += 0.01));
   return (
-    <mesh position={[0, 1, 0]}>
+    <mesh ref={mesh} position={[0, 1, 0]}>
       <boxBufferGeometry attach="geometry" />
-      <meshLambertMaterial attach="material" color="lightblue" />
+      <meshLambertMaterial attach="material" color="red" />
     </mesh>
   );
 }
@@ -47,8 +45,8 @@ const ThreeDimension = () => {
         <Canvas>
           <OrbitControls />
           <Stars />
-          <ambientLight intensity={0.5} />
-          <spotLight position={[10, 15, 10]} angle={0.3} />
+          <ambientLight intensity={0.3} />
+          <spotLight position={[10, 15, 10]} angle={0.9} />
           <Box />
         </Canvas>
       </div>

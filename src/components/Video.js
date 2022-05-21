@@ -14,9 +14,10 @@ const Video = () => {
           OCUL<span>AR</span>VERSE
         </h1>
         <p>Take your place in the future.</p>
+
         <div>
-          <Link to="/contact" className="btn">
-            Get in Touch
+          <Link to="/webThree" className="btn">
+            View our works
           </Link>
         </div>
       </div>
